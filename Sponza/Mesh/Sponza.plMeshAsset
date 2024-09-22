@@ -1,0 +1,605 @@
+HeaderV2
+{
+o
+{
+	Uuid %id{u4{10658578849596281507,5761098883272515561}}
+	s %t{"plAssetDocumentInfo"}
+	u3 %v{2}
+	s %n{"Header"}
+	p
+	{
+		s %AssetType{"Mesh"}
+		VarArray %Dependencies
+		{
+			s{"Mesh/Sponza.gltf"}
+		}
+		Uuid %DocumentID{u4{10658578849596281507,5761098883272515561}}
+		u4 %Hash{849271953301912331}
+		VarArray %MetaInfo{}
+		VarArray %Outputs{}
+		VarArray %PackageDeps
+		{
+			s{"{ 0920704d-174d-4433-8d91-9621ca979f75 }"}
+			s{"{ 0a811fb3-ee40-4716-bb73-83018c4b8f9a }"}
+			s{"{ 0bf00dba-5ef4-48cd-87a9-a521c7f072a4 }"}
+			s{"{ 19833408-6f63-4341-b35b-58a41b0698af }"}
+			s{"{ 2bdd50b0-7031-4997-90a4-c2fee715ae1c }"}
+			s{"{ 31be892e-433a-40b5-969c-97078f571fe2 }"}
+			s{"{ 438bd78e-6b27-4e9e-8191-18b8f3856f1c }"}
+			s{"{ 4add4eae-5fe8-4265-a7f1-3b106a936704 }"}
+			s{"{ 55bfa92c-8295-4ce7-b739-85b2a92e70f1 }"}
+			s{"{ 55dc3dd7-fa40-4a96-9a49-b6fe3d6a4d6c }"}
+			s{"{ 5d8a7ad5-a2f5-4446-aedd-1cbf5a79f35c }"}
+			s{"{ 66a914ad-99bc-414e-b30d-7da627dd9d91 }"}
+			s{"{ 6b60c419-1507-449e-ab40-58cbde8779f4 }"}
+			s{"{ 705884a0-1752-4b60-a5bb-c561d13d20e8 }"}
+			s{"{ 7679f74f-5742-44f2-b728-d313de2c8ca8 }"}
+			s{"{ 82ab6158-03d2-4ca2-9ec9-dc134c353e19 }"}
+			s{"{ 990d8bc4-bfd8-476b-94b5-99c174c1fbf5 }"}
+			s{"{ ad671970-2c5a-4aaa-ae93-16c491aeea9b }"}
+			s{"{ baf2ce74-3bfa-475c-a73b-662283eb8b8d }"}
+			s{"{ be7dca2e-b925-4818-b2f6-59faccada42f }"}
+			s{"{ c26c4c71-fd4d-469d-be8c-c689bb37ef05 }"}
+			s{"{ c389c3d4-b75d-4799-bfb7-56aa3055f3ad }"}
+			s{"{ d0d7e9fb-1e0c-448d-bdab-3a0981c05581 }"}
+			s{"{ d5badae9-0807-4ed3-a90c-8d1ee6e74c5c }"}
+			s{"{ f6cee46a-704d-48d7-b0e7-2958975c04e2 }"}
+		}
+		VarArray %References
+		{
+			s{"Mesh/Sponza.gltf"}
+			s{"{ 0920704d-174d-4433-8d91-9621ca979f75 }"}
+			s{"{ 0a811fb3-ee40-4716-bb73-83018c4b8f9a }"}
+			s{"{ 0bf00dba-5ef4-48cd-87a9-a521c7f072a4 }"}
+			s{"{ 19833408-6f63-4341-b35b-58a41b0698af }"}
+			s{"{ 2bdd50b0-7031-4997-90a4-c2fee715ae1c }"}
+			s{"{ 31be892e-433a-40b5-969c-97078f571fe2 }"}
+			s{"{ 438bd78e-6b27-4e9e-8191-18b8f3856f1c }"}
+			s{"{ 4add4eae-5fe8-4265-a7f1-3b106a936704 }"}
+			s{"{ 55bfa92c-8295-4ce7-b739-85b2a92e70f1 }"}
+			s{"{ 55dc3dd7-fa40-4a96-9a49-b6fe3d6a4d6c }"}
+			s{"{ 5d8a7ad5-a2f5-4446-aedd-1cbf5a79f35c }"}
+			s{"{ 66a914ad-99bc-414e-b30d-7da627dd9d91 }"}
+			s{"{ 6b60c419-1507-449e-ab40-58cbde8779f4 }"}
+			s{"{ 705884a0-1752-4b60-a5bb-c561d13d20e8 }"}
+			s{"{ 7679f74f-5742-44f2-b728-d313de2c8ca8 }"}
+			s{"{ 82ab6158-03d2-4ca2-9ec9-dc134c353e19 }"}
+			s{"{ 990d8bc4-bfd8-476b-94b5-99c174c1fbf5 }"}
+			s{"{ ad671970-2c5a-4aaa-ae93-16c491aeea9b }"}
+			s{"{ baf2ce74-3bfa-475c-a73b-662283eb8b8d }"}
+			s{"{ be7dca2e-b925-4818-b2f6-59faccada42f }"}
+			s{"{ c26c4c71-fd4d-469d-be8c-c689bb37ef05 }"}
+			s{"{ c389c3d4-b75d-4799-bfb7-56aa3055f3ad }"}
+			s{"{ d0d7e9fb-1e0c-448d-bdab-3a0981c05581 }"}
+			s{"{ d5badae9-0807-4ed3-a90c-8d1ee6e74c5c }"}
+			s{"{ f6cee46a-704d-48d7-b0e7-2958975c04e2 }"}
+		}
+	}
+}
+}
+Objects
+{
+o
+{
+	Uuid %id{u4{3387162377074114732,4615977883915253527}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-20"}
+		s %Resource{"{ 0a811fb3-ee40-4716-bb73-83018c4b8f9a }"}
+	}
+}
+o
+{
+	Uuid %id{u4{14957408948111161016,4618278374744829509}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-11"}
+		s %Resource{"{ 6b60c419-1507-449e-ab40-58cbde8779f4 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{1454951549230233262,4630366689748696669}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-8"}
+		s %Resource{"{ 0920704d-174d-4433-8d91-9621ca979f75 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{4570059395001086372,4731862586307038305}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-12"}
+		s %Resource{"{ 55bfa92c-8295-4ce7-b739-85b2a92e70f1 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{4070688769678617270,4738802392168807584}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-9"}
+		s %Resource{"{ c26c4c71-fd4d-469d-be8c-c689bb37ef05 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{7160160708796035242,4739368641671034777}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-4"}
+		s %Resource{"{ 5d8a7ad5-a2f5-4446-aedd-1cbf5a79f35c }"}
+	}
+}
+o
+{
+	Uuid %id{u4{17101919778029974716,4743196177269937577}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-1"}
+		s %Resource{"{ 19833408-6f63-4341-b35b-58a41b0698af }"}
+	}
+}
+o
+{
+	Uuid %id{u4{17433845896899621013,4756395783843308088}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-21"}
+		s %Resource{"{ c389c3d4-b75d-4799-bfb7-56aa3055f3ad }"}
+	}
+}
+o
+{
+	Uuid %id{u4{917575922035469200,4853594904141923570}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-15"}
+		s %Resource{"{ 4add4eae-5fe8-4265-a7f1-3b106a936704 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{16620355969110960525,4921555069501091359}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-2"}
+		s %Resource{"{ 82ab6158-03d2-4ca2-9ec9-dc134c353e19 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{10426818272583749043,5005195424843014426}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-18"}
+		s %Resource{"{ d5badae9-0807-4ed3-a90c-8d1ee6e74c5c }"}
+	}
+}
+o
+{
+	Uuid %id{u4{3616917552228956600,5075190652882712651}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-24"}
+		s %Resource{"{ 705884a0-1752-4b60-a5bb-c561d13d20e8 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{5596077768601376652,5160386804303398012}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-23"}
+		s %Resource{"{ be7dca2e-b925-4818-b2f6-59faccada42f }"}
+	}
+}
+o
+{
+	Uuid %id{u4{3561051254485190571,5196227286992830283}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-5"}
+		s %Resource{"{ 31be892e-433a-40b5-969c-97078f571fe2 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{15164271760823370112,5302526131415046500}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-16"}
+		s %Resource{"{ ad671970-2c5a-4aaa-ae93-16c491aeea9b }"}
+	}
+}
+o
+{
+	Uuid %id{u4{16520265721861584058,5303843464705110984}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-10"}
+		s %Resource{"{ baf2ce74-3bfa-475c-a73b-662283eb8b8d }"}
+	}
+}
+o
+{
+	Uuid %id{u4{10694128067117417910,5326446054098650944}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-22"}
+		s %Resource{"{ 66a914ad-99bc-414e-b30d-7da627dd9d91 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{5309498523667440054,5406828630653526659}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-3"}
+		s %Resource{"{ 990d8bc4-bfd8-476b-94b5-99c174c1fbf5 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{10155963533706613921,5448288077654709855}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-6"}
+		s %Resource{"{ 55dc3dd7-fa40-4a96-9a49-b6fe3d6a4d6c }"}
+	}
+}
+o
+{
+	Uuid %id{u4{8738879165815681983,5526929334328190185}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-7"}
+		s %Resource{"{ f6cee46a-704d-48d7-b0e7-2958975c04e2 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{4133307437995175856,5561120304230416381}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-13"}
+		s %Resource{"{ 0bf00dba-5ef4-48cd-87a9-a521c7f072a4 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{11254055565796665742,5606921971265351018}}
+	s %t{"plMeshAssetProperties"}
+	u3 %v{3}
+	p
+	{
+		b %AggressiveSimplification{0}
+		Angle %Angle{f{0xDB0FC940}}
+		b %Cap{1}
+		b %Cap2{1}
+		u2 %Detail{0}
+		u2 %Detail2{0}
+		b %FlipForwardDir{0}
+		f %Height{0x0000803F}
+		b %ImportMaterials{1}
+		VarArray %Materials
+		{
+			Uuid{u4{12616614238576117164,5712738783247982955}}
+			Uuid{u4{17101919778029974716,4743196177269937577}}
+			Uuid{u4{16620355969110960525,4921555069501091359}}
+			Uuid{u4{5309498523667440054,5406828630653526659}}
+			Uuid{u4{7160160708796035242,4739368641671034777}}
+			Uuid{u4{3561051254485190571,5196227286992830283}}
+			Uuid{u4{10155963533706613921,5448288077654709855}}
+			Uuid{u4{8738879165815681983,5526929334328190185}}
+			Uuid{u4{1454951549230233262,4630366689748696669}}
+			Uuid{u4{4070688769678617270,4738802392168807584}}
+			Uuid{u4{16520265721861584058,5303843464705110984}}
+			Uuid{u4{14957408948111161016,4618278374744829509}}
+			Uuid{u4{4570059395001086372,4731862586307038305}}
+			Uuid{u4{4133307437995175856,5561120304230416381}}
+			Uuid{u4{17366500804593775518,5717190606424567005}}
+			Uuid{u4{917575922035469200,4853594904141923570}}
+			Uuid{u4{15164271760823370112,5302526131415046500}}
+			Uuid{u4{17417071774124803252,5640268059703915852}}
+			Uuid{u4{10426818272583749043,5005195424843014426}}
+			Uuid{u4{17936006457899153570,5725853066554999986}}
+			Uuid{u4{3387162377074114732,4615977883915253527}}
+			Uuid{u4{17433845896899621013,4756395783843308088}}
+			Uuid{u4{10694128067117417910,5326446054098650944}}
+			Uuid{u4{5596077768601376652,5160386804303398012}}
+			Uuid{u4{3616917552228956600,5075190652882712651}}
+		}
+		u1 %MaxSimplificationError{5}
+		s %MeshFile{"Mesh/Sponza.gltf"}
+		u1 %MeshSimplification{50}
+		s %NormalPrecision{"plMeshNormalPrecision::_10Bit"}
+		s %PrimitiveType{"plMeshPrimitive::File"}
+		f %Radius{0x0000003F}
+		f %Radius2{0x0000003F}
+		b %RecalculateNormals{0}
+		b %RecalculateTangents{1}
+		s %RightDir{"plBasisAxis::PositiveX"}
+		b %SimplifyMesh{0}
+		s %TexCoordPrecision{"plMeshTexCoordPrecision::_16Bit"}
+		f %UniformScaling{0x0000803F}
+		s %UpDir{"plBasisAxis::PositiveY"}
+		s %VertexColorConversion{"plMeshVertexColorConversion::None"}
+	}
+}
+o
+{
+	Uuid %id{u4{17417071774124803252,5640268059703915852}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-17"}
+		s %Resource{"{ 438bd78e-6b27-4e9e-8191-18b8f3856f1c }"}
+	}
+}
+o
+{
+	Uuid %id{u4{12616614238576117164,5712738783247982955}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-0"}
+		s %Resource{"{ 2bdd50b0-7031-4997-90a4-c2fee715ae1c }"}
+	}
+}
+o
+{
+	Uuid %id{u4{17366500804593775518,5717190606424567005}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-14"}
+		s %Resource{"{ d0d7e9fb-1e0c-448d-bdab-3a0981c05581 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{17936006457899153570,5725853066554999986}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Mat-19"}
+		s %Resource{"{ 7679f74f-5742-44f2-b728-d313de2c8ca8 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{18096612296587978288,6449934965513159559}}
+	s %t{"plDocumentRoot"}
+	u3 %v{1}
+	s %n{"ObjectTree"}
+	p
+	{
+		VarArray %Children
+		{
+			Uuid{u4{11254055565796665742,5606921971265351018}}
+		}
+	}
+}
+}
+Types
+{
+o
+{
+	Uuid %id{u4{11674692945138119280,7958532569312584972}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMaterialResourceSlot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{4572215149935407619,9171673326008965719}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshAssetProperties"}
+		u3 %TypeVersion{3}
+	}
+}
+o
+{
+	Uuid %id{u4{7009381072334277535,9659459603664967231}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16819636187740221814,11089501717885464587}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plEnumBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{7247182849452030899,11149460721636790200}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshVertexColorConversion"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{11264905787349757498,13035192948806003434}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshPrimitive"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{4101022314413477917,13769697156274436726}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshNormalPrecision"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{4664618235186762955,16317954485104532494}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshTexCoordPrecision"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{13033624727069548121,17368468367984449402}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plReflectedClass"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{698364993276436088,17804542439804637414}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plBasisAxis"}
+		u3 %TypeVersion{1}
+	}
+}
+}
